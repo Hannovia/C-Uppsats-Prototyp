@@ -11,7 +11,7 @@ public class CanvasScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        menu.SetActive(false);
     }
 
     // Update is called once per frame
@@ -19,7 +19,7 @@ public class CanvasScript : MonoBehaviour
     {
         if (Input.GetKeyDown("escape"))
         {
-            Debug.Log("hejehj");
+            Debug.Log("hejhej");
             isShowing = !isShowing;
             menu.SetActive(isShowing);
         }
