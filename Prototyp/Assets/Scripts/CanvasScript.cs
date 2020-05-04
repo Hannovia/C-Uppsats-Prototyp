@@ -16,6 +16,10 @@ public class CanvasScript : MonoBehaviour
 
     public int selectedOption;
 
+    public AudioSource audioSource;
+
+    public AudioClip[] audioClips;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,42 +28,42 @@ public class CanvasScript : MonoBehaviour
 
     public void SwitchText0()
     {
-        // Play TTS
+        audioSource.PlayOneShot(audioClips[0]);
     }
 
     public void SwitchText1()
     {
-        // Play TTS
+        audioSource.PlayOneShot(audioClips[1]);
     }
 
     public void Switchtext2()
     {
-        // Play TTS
+        audioSource.PlayOneShot(audioClips[2]);
     }
 
     public void SwitchText3()
     {
-        // Play TTS
+        audioSource.PlayOneShot(audioClips[3]);
     }
 
     public void SwitchText4()
     {
-        // Play TTS
+        audioSource.PlayOneShot(audioClips[4]);
     }
 
     public void SwitchText5()
     {
-        // Play TTS
+        audioSource.PlayOneShot(audioClips[5]);
     }
 
     public void SwitchText6()
     {
-        // Play TTS
+        audioSource.PlayOneShot(audioClips[6]);
     }
 
     public void SwitchText7()
     {
-        // Play TTS
+        audioSource.PlayOneShot(audioClips[7]);
     }
 
 
