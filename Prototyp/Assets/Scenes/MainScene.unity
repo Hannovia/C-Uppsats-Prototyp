@@ -1129,7 +1129,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Tryck TAB f\xF6r att \xF6ppna och st\xE4nga kommunikationshjulet"
+  m_Text: "Tryck TAB f\xF6r att \xF6ppna och st\xE4nga kommunikationshjulet\nTryck
+    ESCAPE f\xF6r att st\xE4nga av prototypen och g\xE5 tillbaka till Windows"
 --- !u!222 &1185770299
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1517,8 +1518,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1573160295}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -959.95, y: -540.07, z: 0}
-  m_LocalScale: {x: 1.1687863, y: 1.1687863, z: 1.1687863}
+  m_LocalPosition: {x: -959.95996, y: -539.91, z: 0}
+  m_LocalScale: {x: 0.83605355, y: 0.83605355, z: 0.83605355}
   m_Children: []
   m_Father: {fileID: 902608785}
   m_RootOrder: 0
@@ -1548,8 +1549,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1748396085}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -959.95, y: -540.07, z: 0}
-  m_LocalScale: {x: 1.1687863, y: 1.1687863, z: 1.1687863}
+  m_LocalPosition: {x: -959.96, y: -539.91, z: 0}
+  m_LocalScale: {x: 0.83605355, y: 0.83605355, z: 0.83605355}
   m_Children: []
   m_Father: {fileID: 1987858050}
   m_RootOrder: 0

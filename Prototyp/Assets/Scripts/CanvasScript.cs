@@ -71,6 +71,11 @@ public class CanvasScript : MonoBehaviour
     void Update()
     {
 
+        if (Input.GetKey("escape"))
+        {
+            Application.Quit();
+        }
+
         if (Input.GetKeyDown(KeyCode.Tab))
         {
             if (menu.activeInHierarchy)
@@ -109,7 +114,7 @@ public class CanvasScript : MonoBehaviour
                     angle += 360;
                 }
 
-               // Debug.Log(angle);
+                // Debug.Log(angle);
 
                 for (int i = 0; i < options.Length; i++)
                 {
@@ -117,7 +122,8 @@ public class CanvasScript : MonoBehaviour
                     {
                         options[i].color = highlightedColor;
                         selectedOption = i;
-                    } else
+                    }
+                    else
                     {
                         options[i].color = normalColor;
                     }
