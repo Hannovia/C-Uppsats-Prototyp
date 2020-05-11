@@ -36,7 +36,7 @@ public class CanvasScript : MonoBehaviour
         audioSource.PlayOneShot(audioClips[1]);
     }
 
-    public void Switchtext2()
+    public void SwitchText2()
     {
         audioSource.PlayOneShot(audioClips[2]);
     }
@@ -87,14 +87,44 @@ public class CanvasScript : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown("0"))
+        if (Input.GetKeyDown("1"))
         {
             SwitchText0();
         }
 
-        if (Input.GetKeyDown("1"))
+        if (Input.GetKeyDown("2"))
         {
             SwitchText1();
+        }
+
+        if (Input.GetKeyDown("3"))
+        {
+            SwitchText2();
+        }
+
+        if (Input.GetKeyDown("4"))
+        {
+            SwitchText3();
+        }
+
+        if (Input.GetKeyDown("5"))
+        {
+            SwitchText4();
+        }
+
+        if (Input.GetKeyDown("6"))
+        {
+            SwitchText5();
+        }
+
+        if (Input.GetKeyDown("7"))
+        {
+            SwitchText6();
+        }
+
+        if (Input.GetKeyDown("8"))
+        {
+            SwitchText7();
         }
 
         if (menu.activeInHierarchy)
@@ -144,7 +174,7 @@ public class CanvasScript : MonoBehaviour
                         break;
 
                     case 2:
-                        Switchtext2();
+                        SwitchText2();
                         break;
 
                     case 3:
